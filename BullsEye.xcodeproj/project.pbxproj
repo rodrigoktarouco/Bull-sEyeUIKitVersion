@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C33613DA28CB682D00AEE95A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33613D928CB682D00AEE95A /* AboutViewController.swift */; };
+		C33613DC28CB6CCB00AEE95A /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = C33613DB28CB6CCB00AEE95A /* BullsEye.html */; };
 		C373258528C0D6DB00001905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C373258428C0D6DB00001905 /* AppDelegate.swift */; };
 		C373258728C0D6DB00001905 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C373258628C0D6DB00001905 /* SceneDelegate.swift */; };
 		C373258928C0D6DB00001905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C373258828C0D6DB00001905 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C33613D928CB682D00AEE95A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C33613DB28CB6CCB00AEE95A /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		C373258128C0D6DB00001905 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C373258428C0D6DB00001905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C373258628C0D6DB00001905 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +60,11 @@
 		C373258328C0D6DB00001905 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				C33613DB28CB6CCB00AEE95A /* BullsEye.html */,
 				C373258428C0D6DB00001905 /* AppDelegate.swift */,
 				C373258628C0D6DB00001905 /* SceneDelegate.swift */,
 				C373258828C0D6DB00001905 /* ViewController.swift */,
+				C33613D928CB682D00AEE95A /* AboutViewController.swift */,
 				C373258A28C0D6DB00001905 /* Main.storyboard */,
 				C373258D28C0D6DC00001905 /* Assets.xcassets */,
 				C373258F28C0D6DC00001905 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C373259128C0D6DC00001905 /* LaunchScreen.storyboard in Resources */,
+				C33613DC28CB6CCB00AEE95A /* BullsEye.html in Resources */,
 				C373258E28C0D6DC00001905 /* Assets.xcassets in Resources */,
 				C373258C28C0D6DB00001905 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				C373258928C0D6DB00001905 /* ViewController.swift in Sources */,
 				C373258528C0D6DB00001905 /* AppDelegate.swift in Sources */,
+				C33613DA28CB682D00AEE95A /* AboutViewController.swift in Sources */,
 				C373258728C0D6DB00001905 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +298,11 @@
 				DEVELOPMENT_TEAM = CQQC8DT4FG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -320,9 +330,11 @@
 				DEVELOPMENT_TEAM = CQQC8DT4FG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
